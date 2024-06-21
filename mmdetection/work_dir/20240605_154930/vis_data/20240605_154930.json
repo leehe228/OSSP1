@@ -1,0 +1,71 @@
+{"lr": 0.02, "data_time": 0.02315951347351074, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 3.282192921638489, "epoch": 1, "iter": 50, "step": 50}
+{"lr": 0.02, "data_time": 0.01490318775177002, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.934721279144287, "epoch": 1, "iter": 100, "step": 100}
+{"data_time": 0.004465983194463393, "time": 0.24884175553041346, "step": 1}
+{"lr": 0.02, "data_time": 0.016603817939758302, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.939685459136963, "epoch": 2, "iter": 179, "step": 179}
+{"lr": 0.02, "data_time": 0.01227214813232422, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.9412068796157835, "epoch": 2, "iter": 229, "step": 229}
+{"data_time": 0.0028546651204427085, "time": 0.2340930890345919, "step": 2}
+{"lr": 0.02, "data_time": 0.020181050300598146, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 99.99999237060547, "loss_bbox": NaN, "time": 2.891276330947876, "epoch": 3, "iter": 308, "step": 308}
+{"lr": 0.02, "data_time": 0.012831277847290039, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.9350296592712404, "epoch": 3, "iter": 358, "step": 358}
+{"data_time": 0.0028853761977043705, "time": 0.23392542203267416, "step": 3}
+{"lr": 0.02, "data_time": 0.017063093185424805, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.939718871116638, "epoch": 4, "iter": 437, "step": 437}
+{"lr": 0.02, "data_time": 0.013332247734069824, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.944067268371582, "epoch": 4, "iter": 487, "step": 487}
+{"data_time": 0.0028370394222978234, "time": 0.23391606496727985, "step": 4}
+{"lr": 0.02, "data_time": 0.020456299781799317, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 99.99999237060547, "loss_bbox": NaN, "time": 2.9385874032974244, "epoch": 5, "iter": 566, "step": 566}
+{"lr": 0.02, "data_time": 0.012327337265014648, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.896600379943848, "epoch": 5, "iter": 616, "step": 616}
+{"data_time": 0.002868908039037732, "time": 0.2342683612436488, "step": 5}
+{"lr": 0.02, "data_time": 0.018277087211608888, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9310250759124754, "epoch": 6, "iter": 695, "step": 695}
+{"lr": 0.02, "data_time": 0.012034287452697754, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.8913435125350953, "epoch": 6, "iter": 745, "step": 745}
+{"data_time": 0.00290698590485946, "time": 0.23480285768923553, "step": 6}
+{"lr": 0.02, "data_time": 0.017871146202087403, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9217642545700073, "epoch": 7, "iter": 824, "step": 824}
+{"lr": 0.02, "data_time": 0.01208115577697754, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9328108644485473, "epoch": 7, "iter": 874, "step": 874}
+{"data_time": 0.0032360104547030683, "time": 0.23631173285885135, "step": 7}
+{"lr": 0.02, "data_time": 0.0175565767288208, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.92801335811615, "epoch": 8, "iter": 953, "step": 953}
+{"lr": 0.02, "data_time": 0.013352322578430175, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9411677742004394, "epoch": 8, "iter": 1003, "step": 1003}
+{"data_time": 0.002902784209320511, "time": 0.23459270380545352, "step": 8}
+{"lr": 0.02, "data_time": 0.01968170642852783, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.8691465520858763, "epoch": 9, "iter": 1082, "step": 1082}
+{"lr": 0.02, "data_time": 0.015572876930236816, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9242052698135375, "epoch": 9, "iter": 1132, "step": 1132}
+{"data_time": 0.0030082377834596496, "time": 0.23427858905515808, "step": 9}
+{"lr": 0.02, "data_time": 0.018748416900634765, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.914511089324951, "epoch": 10, "iter": 1211, "step": 1211}
+{"lr": 0.02, "data_time": 0.012286491394042968, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.885933966636658, "epoch": 10, "iter": 1261, "step": 1261}
+{"data_time": 0.002923163814821105, "time": 0.23432859476061835, "step": 10}
+{"lr": 0.02, "data_time": 0.017874231338500978, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9411558437347414, "epoch": 11, "iter": 1340, "step": 1340}
+{"lr": 0.02, "data_time": 0.012443294525146484, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.918146224021912, "epoch": 11, "iter": 1390, "step": 1390}
+{"data_time": 0.002865628919739654, "time": 0.23418398525403894, "step": 11}
+{"lr": 0.02, "data_time": 0.019603919982910157, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.934089422225952, "epoch": 12, "iter": 1469, "step": 1469}
+{"lr": 0.02, "data_time": 0.012402219772338867, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.920549502372742, "epoch": 12, "iter": 1519, "step": 1519}
+{"data_time": 0.002894439559051956, "time": 0.23585822962332462, "step": 12}
+{"lr": 0.02, "data_time": 0.015529122352600098, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9181596994400025, "epoch": 13, "iter": 1598, "step": 1598}
+{"lr": 0.02, "data_time": 0.010601143836975097, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.9128510570526123, "epoch": 13, "iter": 1648, "step": 1648}
+{"data_time": 0.0029304545858631964, "time": 0.23612166833186496, "step": 13}
+{"lr": 0.02, "data_time": 0.015901165008544924, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.95235164642334, "epoch": 14, "iter": 1727, "step": 1727}
+{"lr": 0.02, "data_time": 0.010787320137023926, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.923575105667114, "epoch": 14, "iter": 1777, "step": 1777}
+{"data_time": 0.0028798925703850346, "time": 0.2356257715087006, "step": 14}
+{"lr": 0.02, "data_time": 0.016093106269836427, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9244900608062743, "epoch": 15, "iter": 1856, "step": 1856}
+{"lr": 0.02, "data_time": 0.01062199592590332, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.964197039604187, "epoch": 15, "iter": 1906, "step": 1906}
+{"data_time": 0.0028542884881945624, "time": 0.235315696052883, "step": 15}
+{"lr": 0.02, "data_time": 0.018584771156311033, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.893647413253784, "epoch": 16, "iter": 1985, "step": 1985}
+{"lr": 0.02, "data_time": 0.010556702613830566, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.932704949378967, "epoch": 16, "iter": 2035, "step": 2035}
+{"data_time": 0.002939549045286317, "time": 0.2372286181518997, "step": 16}
+{"lr": 0.02, "data_time": 0.016082282066345214, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.963668775558472, "epoch": 17, "iter": 2114, "step": 2114}
+{"lr": 0.02, "data_time": 0.010646567344665528, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9266344261169435, "epoch": 17, "iter": 2164, "step": 2164}
+{"data_time": 0.003224583639614824, "time": 0.23668650267780691, "step": 17}
+{"lr": 0.02, "data_time": 0.015575413703918456, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9305251026153565, "epoch": 18, "iter": 2243, "step": 2243}
+{"lr": 0.02, "data_time": 0.01039717197418213, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.939468402862549, "epoch": 18, "iter": 2293, "step": 2293}
+{"data_time": 0.002939054931419483, "time": 0.2355379885521488, "step": 18}
+{"lr": 0.02, "data_time": 0.01643599510192871, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.914054093360901, "epoch": 19, "iter": 2372, "step": 2372}
+{"lr": 0.02, "data_time": 0.010369434356689453, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9425551509857177, "epoch": 19, "iter": 2422, "step": 2422}
+{"data_time": 0.0032075453495633774, "time": 0.23501375447148862, "step": 19}
+{"lr": 0.02, "data_time": 0.02226012706756592, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9524326372146605, "epoch": 20, "iter": 2501, "step": 2501}
+{"lr": 0.02, "data_time": 0.016384782791137694, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9463665533065795, "epoch": 20, "iter": 2551, "step": 2551}
+{"data_time": 0.002894906030184981, "time": 0.23455927682959515, "step": 20}
+{"lr": 0.02, "data_time": 0.020659327507019043, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.930878791809082, "epoch": 21, "iter": 2630, "step": 2630}
+{"lr": 0.02, "data_time": 0.013061094284057616, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.966533031463623, "epoch": 21, "iter": 2680, "step": 2680}
+{"data_time": 0.0029086652009383492, "time": 0.23565207702526147, "step": 21}
+{"lr": 0.02, "data_time": 0.015539627075195312, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.9417882061004637, "epoch": 22, "iter": 2759, "step": 2759}
+{"lr": 0.02, "data_time": 0.012837767601013184, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.9431492614746095, "epoch": 22, "iter": 2809, "step": 2809}
+{"data_time": 0.0029617116071175838, "time": 0.23624110567396966, "step": 22}
+{"lr": 0.02, "data_time": 0.022227396965026857, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.9417233228683473, "epoch": 23, "iter": 2888, "step": 2888}
+{"lr": 0.02, "data_time": 0.013733987808227538, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.0, "loss_bbox": NaN, "time": 2.962759189605713, "epoch": 23, "iter": 2938, "step": 2938}
+{"data_time": 0.0029253510461337323, "time": 0.23508064643196439, "step": 23}
+{"lr": 0.02, "data_time": 0.014737677574157716, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.952723913192749, "epoch": 24, "iter": 3017, "step": 3017}
+{"lr": 0.02, "data_time": 0.013245835304260253, "loss": NaN, "loss_rpn_cls": NaN, "loss_rpn_bbox": NaN, "loss_cls": NaN, "acc": 100.00000762939453, "loss_bbox": NaN, "time": 2.953866229057312, "epoch": 24, "iter": 3067, "step": 3067}
