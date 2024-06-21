@@ -1,0 +1,919 @@
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/image-classification-fastapi']
+INFO:     Uvicorn running on http://117.16.136.174:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [155314] using StatReload
+INFO:     Started server process [155514]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.84.63:40739 - "GET /docs HTTP/1.1" 200 OK
+INFO:     104.28.84.63:40739 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [155514]
+INFO:     Started server process [155581]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     210.106.232.50:64504 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.106.232.50:64504 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     210.106.232.50:64506 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.106.232.50:64506 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     210.106.232.50:64507 - "GET /docs HTTP/1.1" 200 OK
+INFO:     210.106.232.50:64507 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [155581]
+INFO:     Started server process [158544]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158544]
+Process SpawnProcess-4:
+Traceback (most recent call last):
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 35
+    response.append({"cls" 1: , "confidence": "0.98"})
+                           ^
+SyntaxError: invalid syntax
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+Process SpawnProcess-5:
+Traceback (most recent call last):
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/multiprocessing/process.py", line 315, in _bootstrap
+    self.run()
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/asyncio/base_events.py", line 616, in run_until_complete
+    return future.result()
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/image-classification-fastapi/venv/lib/python3.8/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/home/dmsai2/.conda/envs/model-server/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 843, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 35
+    response.append({"cls" 1: , "confidence": "0.98"})
+                           ^
+SyntaxError: invalid syntax
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Started server process [158549]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158549]
+INFO:     Started server process [158553]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158553]
+INFO:     Started server process [158555]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158555]
+INFO:     Started server process [158560]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158560]
+INFO:     Started server process [158562]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158562]
+INFO:     Started server process [158566]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158566]
+INFO:     Started server process [158571]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158571]
+INFO:     Started server process [158579]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158579]
+INFO:     Started server process [158582]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158582]
+INFO:     Started server process [158586]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.63:58537 - "POST /uploadfile/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158586]
+INFO:     Started server process [158590]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158590]
+INFO:     Started server process [158592]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.62:56678 - "POST /uploadfile/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158592]
+INFO:     Started server process [158597]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.62:9904 - "POST /uploadfile/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158597]
+INFO:     Started server process [158601]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.102.47:20571 - "POST /uploadfile/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158601]
+INFO:     Started server process [158606]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.62:54513 - "GET /docs HTTP/1.1" 200 OK
+INFO:     104.28.100.62:54513 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158606]
+INFO:     Started server process [158610]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.63:58636 - "GET /docs HTTP/1.1" 200 OK
+INFO:     104.28.100.63:58636 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     104.28.100.62:61530 - "POST /predict/ HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158610]
+INFO:     Started server process [158616]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.100.63:54722 - "GET /docs HTTP/1.1" 200 OK
+INFO:     104.28.100.63:54722 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158616]
+INFO:     Started server process [158618]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158618]
+INFO:     Started server process [158623]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158623]
+INFO:     Started server process [158700]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158700]
+INFO:     Started server process [158787]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     104.28.68.45:23892 - "GET /docs HTTP/1.1" 200 OK
+INFO:     104.28.68.45:23892 - "GET /openapi.json HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/nvidia/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [158787]
+INFO:     Started server process [162098]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/nvidia/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [162098]
+INFO:     Started server process [162110]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/nvidia/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [162110]
+INFO:     Started server process [162117]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/nvidia/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [162117]
+INFO:     Started server process [162119]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/nvidia/__init__.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [162119]
+INFO:     Started server process [162121]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/numpy/_pytesttester.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [162121]
+INFO:     Started server process [165856]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  StatReload detected changes in 'venv/lib/python3.8/site-packages/numpy/_pytesttester.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [165856]
+INFO:     Started server process [167287]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     172.226.94.16:44736 - "GET / HTTP/1.1" 200 OK
+INFO:     172.226.94.16:44736 - "GET /docs HTTP/1.1" 200 OK
+INFO:     172.226.94.16:44736 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     172.226.94.16:46633 - "POST /predict HTTP/1.1" 200 OK
+INFO:     211.231.103.106:34096 - "GET /docs HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [167287]
+INFO:     Stopping reloader process [155314]
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/image-classification-fastapi']
+ERROR:    [Errno 98] Address already in use
+Traceback (most recent call last):
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+/home/dmsai2/image-classification-fastapi/predict_mock.py
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/image-classification-fastapi']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [102629] using WatchFiles
+INFO:     Started server process [102632]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'predict_mock.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [102632]
+INFO:     Started server process [103220]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [103220]
+Process SpawnProcess-3:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+WARNING:  WatchFiles detected changes in 'main copy.py'. Reloading...
+Process SpawnProcess-4:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+WARNING:  WatchFiles detected changes in 'main_test.py', 'main copy.py'. Reloading...
+Process SpawnProcess-5:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+WARNING:  WatchFiles detected changes in 'predict_mock.py', 'predict_test.py'. Reloading...
+Process SpawnProcess-6:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+WARNING:  WatchFiles detected changes in 'main_test.py'. Reloading...
+Process SpawnProcess-7:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+WARNING:  WatchFiles detected changes in 'main_test.py'. Reloading...
+Process SpawnProcess-8:
+Traceback (most recent call last):
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/anaconda3/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/_subprocess.py", line 80, in subprocess_started
+    target(sockets=sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+  File "/usr/anaconda3/lib/python3.10/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "uvloop/loop.pyx", line 1517, in uvloop.loop.Loop.run_until_complete
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 69, in serve
+    await self._serve(sockets)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/server.py", line 76, in _serve
+    config.load()
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/config.py", line 434, in load
+    self.loaded_app = import_from_string(self.app)
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 22, in import_from_string
+    raise exc from None
+  File "/home/dmsai2/.local/lib/python3.10/site-packages/uvicorn/importer.py", line 19, in import_from_string
+    module = importlib.import_module(module_str)
+  File "/usr/anaconda3/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/dmsai2/image-classification-fastapi/main.py", line 2, in <module>
+    from predict import read_image
+  File "/home/dmsai2/image-classification-fastapi/predict.py", line 9, in <module>
+    import mmcv
+ModuleNotFoundError: No module named 'mmcv'
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/image-classification-fastapi']
+ERROR:    [Errno 98] Address already in use
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/image-classification-fastapi']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [104304] using WatchFiles
+INFO:     Started server process [104307]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'main_test.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [104307]
+ERROR:    Error loading ASGI app. Could not import module "main_test".
+WARNING:  WatchFiles detected changes in 'predict_test.py'. Reloading...
+ERROR:    Error loading ASGI app. Could not import module "main_test".
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/mmdetection/image-classification-fastapi']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [166092] using WatchFiles
+INFO:     Started server process [166097]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+WARNING:  WatchFiles detected changes in 'predict.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [166097]
+INFO:     Started server process [166168]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [166168]
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/mmdetection/image-classification-fastapi']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [63431] using WatchFiles
+INFO:     Started server process [63436]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+2024-06-19_19_02
+=> creating model 'xception'
+=> model weight '/home/dmsai2/mmdetection/image-classification-fastapi/xception_epoch26.pth' is loaded
+/home/dmsai2/mmdetection/image-classification-fastapi/predict.py
+<class 'PIL.JpegImagePlugin.JpegImageFile'>
+1060 480
+Loads checkpoint by local backend from path: /home/dmsai2/mmdetection/work_dir/epoch_48.pth
+<DetDataSample(
+
+    META INFORMATION
+    scale_factor: (0.21132075471698114, 0.21041666666666667)
+    img_path: '/home/dmsai2/mmdetection/image-classification-fastapi/temp/20240619190252.png'
+    img_shape: (101, 224)
+    ori_shape: (480, 1060)
+    batch_input_shape: (128, 224)
+    pad_shape: (128, 224)
+    img_id: 0
+
+    DATA FIELDS
+    gt_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f6208958f40>
+    pred_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0, 0, 0], device='cuda:0')
+            scores: tensor([0.9987, 0.9985, 0.9980, 0.9958, 0.9942, 0.9934, 0.9931, 0.9914, 0.9874,
+                        0.9841, 0.9777, 0.9625, 0.9533, 0.9416, 0.9154, 0.8870, 0.8687, 0.5515,
+                        0.5513, 0.5009, 0.3984, 0.3387, 0.2605, 0.2441, 0.2039, 0.1388, 0.0838,
+                        0.0801, 0.0597, 0.0566], device='cuda:0')
+            bboxes: tensor([[ 340.9641,  263.0836,  482.1787,  431.3647],
+                        [ 552.5775,  266.1039,  691.1277,  426.6957],
+                        [ 451.2799,  270.1998,  578.1329,  429.4500],
+                        [ 469.6970,   96.9186,  669.2157,  286.4233],
+                        [ 141.4881,  207.9816,  287.4513,  394.9250],
+                        [ 648.0402,  107.2205,  792.9376,  265.0645],
+                        [ 668.0067,  252.7172,  832.1451,  440.3775],
+                        [ 772.1937,  113.6597,  927.5966,  278.2873],
+                        [ 790.8042,  233.2687,  974.6791,  416.9240],
+                        [ 303.9489,  109.7378,  484.8937,  278.6177],
+                        [ 251.5324,  245.4850,  370.2233,  398.6440],
+                        [  81.0708,  192.9494,  198.4359,  346.3694],
+                        [ 113.4582,   61.7739,  254.7964,  228.8392],
+                        [ 219.3166,   94.1207,  327.2500,  253.5172],
+                        [ 675.0161,  121.5957,  782.5419,  204.9591],
+                        [ 906.0446,  151.6349,  989.1631,  264.1948],
+                        [ 120.6667,   79.5876,  225.2428,  175.6801],
+                        [ 491.7229,  108.0743,  659.3198,  217.9620],
+                        [ 521.6683,  106.7650,  638.3411,  184.3232],
+                        [ 313.3630,   94.1611,  448.7562,  180.0705],
+                        [  67.7258,   78.3033,  161.3810,  205.3008],
+                        [ 846.9862,  128.1610,  930.8200,  224.2672],
+                        [ 862.6404,  244.9004,  976.5512,  376.2526],
+                        [  93.2518,   82.4520,  187.6124,  181.0784],
+                        [  59.7521,  184.7246,  161.3484,  324.6260],
+                        [ 864.2165,  144.1457,  946.3303,  241.2572],
+                        [ 932.4982,  240.4857, 1009.3807,  356.6742],
+                        [ 218.9550,   70.7296,  423.8766,  277.1343],
+                        [  59.3910,  171.2330,  234.2827,  379.6351],
+                        [  60.5225,  166.4098,  138.9057,  274.8613]], device='cuda:0')
+        ) at 0x7f6210051fd0>
+    ignored_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f6208958cd0>
+) at 0x7f6208958fd0>
+  0%|          | 0/30 [00:00<?, ?it/s]/home/dmsai2/.conda/envs/openmmlab/lib/python3.8/site-packages/torch/nn/modules/module.py:1532: UserWarning: Implicit dimension choice for softmax has been deprecated. Change the call to include dim=X as an argument.
+  return self._call_impl(*args, **kwargs)
+ 33%|███▎      | 10/30 [00:00<00:00, 96.04it/s]100%|██████████| 30/30 [00:00<00:00, 179.24it/s]tooth: 0.9108231067657471, cavity: 0.08917683362960815
+tooth: 0.9127322435379028, cavity: 0.08726773411035538
+tooth: 0.8555457592010498, cavity: 0.14445428550243378
+tooth: 0.9191408753395081, cavity: 0.08085909485816956
+tooth: 0.8840824365615845, cavity: 0.11591756343841553
+tooth: 0.2684766948223114, cavity: 0.731523334980011
+tooth: 0.8734726905822754, cavity: 0.1265273541212082
+tooth: 0.5981619954109192, cavity: 0.4018379747867584
+tooth: 0.8888443112373352, cavity: 0.1111556738615036
+tooth: 0.952163815498352, cavity: 0.04783617705106735
+tooth: 0.8299928903579712, cavity: 0.17000705003738403
+tooth: 0.7086228728294373, cavity: 0.29137712717056274
+tooth: 0.03473895043134689, cavity: 0.9652610421180725
+tooth: 0.4333597421646118, cavity: 0.5666402578353882
+tooth: 0.27487704157829285, cavity: 0.7251229286193848
+tooth: 0.8179733753204346, cavity: 0.18202662467956543
+tooth: 0.012916800566017628, cavity: 0.9870831966400146
+tooth: 0.8969722390174866, cavity: 0.1030278280377388
+tooth: 0.8736188411712646, cavity: 0.12638114392757416
+tooth: 0.5089151859283447, cavity: 0.49108484387397766
+response:
+[{'cls': '0', 'prob': 0.08917683362960815, 'bbox': [[340.0, 263.0], [482.0, 431.0]]}, {'cls': '0', 'prob': 0.08726773411035538, 'bbox': [[552.0, 266.0], [691.0, 426.0]]}, {'cls': '0', 'prob': 0.14445428550243378, 'bbox': [[451.0, 270.0], [578.0, 429.0]]}, {'cls': '0', 'prob': 0.08085909485816956, 'bbox': [[469.0, 96.0], [669.0, 286.0]]}, {'cls': '0', 'prob': 0.11591756343841553, 'bbox': [[141.0, 207.0], [287.0, 394.0]]}, {'cls': '1', 'prob': 0.731523334980011, 'bbox': [[648.0, 107.0], [792.0, 265.0]]}, {'cls': '0', 'prob': 0.1265273541212082, 'bbox': [[668.0, 252.0], [832.0, 440.0]]}, {'cls': '0', 'prob': 0.4018379747867584, 'bbox': [[772.0, 113.0], [927.0, 278.0]]}, {'cls': '0', 'prob': 0.1111556738615036, 'bbox': [[790.0, 233.0], [974.0, 416.0]]}, {'cls': '0', 'prob': 0.04783617705106735, 'bbox': [[303.0, 109.0], [484.0, 278.0]]}, {'cls': '0', 'prob': 0.17000705003738403, 'bbox': [[251.0, 245.0], [370.0, 398.0]]}, {'cls': '0', 'prob': 0.29137712717056274, 'bbox': [[81.0, 192.0], [198.0, 346.0]]}, {'cls': '1', 'prob': 0.9652610421180725, 'bbox': [[113.0, 61.0], [254.0, 228.0]]}, {'cls': '1', 'prob': 0.5666402578353882, 'bbox': [[219.0, 94.0], [327.0, 253.0]]}, {'cls': '1', 'prob': 0.7251229286193848, 'bbox': [[675.0, 121.0], [782.0, 204.0]]}, {'cls': '0', 'prob': 0.18202662467956543, 'bbox': [[906.0, 151.0], [989.0, 264.0]]}, {'cls': '1', 'prob': 0.9870831966400146, 'bbox': [[120.0, 79.0], [225.0, 175.0]]}, {'cls': '0', 'prob': 0.1030278280377388, 'bbox': [[491.0, 108.0], [659.0, 217.0]]}, {'cls': '0', 'prob': 0.12638114392757416, 'bbox': [[521.0, 106.0], [638.0, 184.0]]}, {'cls': '0', 'prob': 0.49108484387397766, 'bbox': [[313.0, 94.0], [448.0, 180.0]]}]
+INFO:     127.0.0.1:37504 - "POST /predict HTTP/1.1" 200 OK
+
+<class 'PIL.JpegImagePlugin.JpegImageFile'>
+872 570
+Loads checkpoint by local backend from path: /home/dmsai2/mmdetection/work_dir/epoch_48.pth
+<DetDataSample(
+
+    META INFORMATION
+    scale_factor: (0.25688073394495414, 0.256140350877193)
+    img_path: '/home/dmsai2/mmdetection/image-classification-fastapi/temp/20240619190401.png'
+    img_shape: (146, 224)
+    ori_shape: (570, 872)
+    batch_input_shape: (160, 224)
+    pad_shape: (160, 224)
+    img_id: 0
+
+    DATA FIELDS
+    gt_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f6208a72490>
+    pred_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0], device='cuda:0')
+            scores: tensor([0.9981, 0.9981, 0.9972, 0.9953, 0.9952, 0.9947, 0.7947, 0.7488, 0.5961,
+                        0.5022, 0.4620, 0.4385, 0.4212, 0.3264, 0.3119, 0.2733, 0.1315, 0.1275,
+                        0.1193, 0.1078, 0.0911, 0.0784, 0.0726, 0.0710, 0.0695, 0.0670, 0.0611],
+                       device='cuda:0')
+            bboxes: tensor([[0.0000e+00, 2.9291e+02, 1.7289e+02, 5.3939e+02],
+                        [7.0667e+02, 3.1870e+02, 8.7158e+02, 5.5129e+02],
+                        [2.3019e+02, 1.0589e+02, 4.5322e+02, 3.7507e+02],
+                        [7.7811e+01, 1.8646e+02, 2.8707e+02, 4.0778e+02],
+                        [5.9961e+02, 2.1429e+02, 8.1276e+02, 4.1611e+02],
+                        [4.2522e+02, 9.9065e+01, 6.7320e+02, 3.8277e+02],
+                        [0.0000e+00, 4.6312e+02, 9.0114e+01, 5.7000e+02],
+                        [7.9992e+02, 5.1686e+02, 8.7200e+02, 5.7000e+02],
+                        [1.3723e+02, 2.6681e+02, 2.3249e+02, 3.6037e+02],
+                        [6.3160e+02, 2.5591e+02, 7.8092e+02, 3.7881e+02],
+                        [6.6127e+02, 2.9221e+02, 7.3445e+02, 3.6155e+02],
+                        [1.1488e+02, 2.2770e+02, 2.6103e+02, 3.8153e+02],
+                        [0.0000e+00, 3.9803e+02, 1.4268e+02, 5.5803e+02],
+                        [4.6948e+02, 1.5174e+02, 6.4201e+02, 3.2962e+02],
+                        [8.0657e+02, 4.6828e+02, 8.7200e+02, 5.7000e+02],
+                        [7.4635e+02, 4.8007e+02, 8.7102e+02, 5.7000e+02],
+                        [7.5721e+02, 3.3789e+02, 8.6894e+02, 4.8658e+02],
+                        [7.2566e+02, 3.8064e+02, 8.3862e+02, 5.1936e+02],
+                        [7.7914e+02, 4.4411e+02, 8.7200e+02, 5.5209e+02],
+                        [1.4310e-01, 4.2333e+02, 9.8114e+01, 5.3837e+02],
+                        [1.4021e+02, 3.0376e+02, 2.3706e+02, 3.7449e+02],
+                        [7.3053e+02, 3.5171e+02, 8.1835e+02, 4.8283e+02],
+                        [7.5443e+02, 3.9127e+02, 8.4393e+02, 4.8198e+02],
+                        [4.9619e+02, 1.9556e+02, 6.2688e+02, 2.9265e+02],
+                        [1.3361e+00, 3.0370e+02, 1.4028e+02, 4.5382e+02],
+                        [5.1074e+02, 2.5922e+02, 5.8748e+02, 3.6046e+02],
+                        [1.0177e+00, 3.9055e+02, 5.5029e+01, 5.7000e+02]], device='cuda:0')
+        ) at 0x7f6208a724f0>
+    ignored_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f6208a72460>
+) at 0x7f6208a72430>
+  0%|          | 0/27 [00:00<?, ?it/s]100%|██████████| 27/27 [00:00<00:00, 408.83it/s]tooth: 0.25969916582107544, cavity: 0.7403008341789246
+tooth: 0.4765228033065796, cavity: 0.5234771966934204
+tooth: 0.14525119960308075, cavity: 0.8547487854957581
+tooth: 0.14854130148887634, cavity: 0.851458728313446
+tooth: 0.09812982380390167, cavity: 0.9018701314926147
+tooth: 0.2654319405555725, cavity: 0.7345680594444275
+tooth: 0.4051533341407776, cavity: 0.5948466658592224
+tooth: 0.8464134335517883, cavity: 0.15358653664588928
+tooth: 0.3682493567466736, cavity: 0.6317507028579712
+tooth: 0.37168291211128235, cavity: 0.6283170580863953
+response:
+[{'cls': '1', 'prob': 0.7403008341789246, 'bbox': [[0.0, 292.0], [172.0, 539.0]]}, {'cls': '1', 'prob': 0.5234771966934204, 'bbox': [[706.0, 318.0], [871.0, 551.0]]}, {'cls': '1', 'prob': 0.8547487854957581, 'bbox': [[230.0, 105.0], [453.0, 375.0]]}, {'cls': '1', 'prob': 0.851458728313446, 'bbox': [[77.0, 186.0], [287.0, 407.0]]}, {'cls': '1', 'prob': 0.9018701314926147, 'bbox': [[599.0, 214.0], [812.0, 416.0]]}, {'cls': '1', 'prob': 0.7345680594444275, 'bbox': [[425.0, 99.0], [673.0, 382.0]]}, {'cls': '1', 'prob': 0.5948466658592224, 'bbox': [[0.0, 463.0], [90.0, 570.0]]}, {'cls': '0', 'prob': 0.15358653664588928, 'bbox': [[799.0, 516.0], [872.0, 570.0]]}, {'cls': '1', 'prob': 0.6317507028579712, 'bbox': [[137.0, 266.0], [232.0, 360.0]]}, {'cls': '1', 'prob': 0.6283170580863953, 'bbox': [[631.0, 255.0], [780.0, 378.0]]}]
+INFO:     127.0.0.1:34944 - "POST /predict HTTP/1.1" 200 OK
+
+<class 'PIL.JpegImagePlugin.JpegImageFile'>
+732 694
+Loads checkpoint by local backend from path: /home/dmsai2/mmdetection/work_dir/epoch_48.pth
+<DetDataSample(
+
+    META INFORMATION
+    scale_factor: (0.30601092896174864, 0.30547550432276654)
+    img_path: '/home/dmsai2/mmdetection/image-classification-fastapi/temp/20240619190614.png'
+    img_shape: (212, 224)
+    ori_shape: (694, 732)
+    batch_input_shape: (224, 224)
+    pad_shape: (224, 224)
+    img_id: 0
+
+    DATA FIELDS
+    gt_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f62089a8730>
+    pred_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0,
+                        0, 0, 0, 0], device='cuda:0')
+            scores: tensor([0.7652, 0.6535, 0.4792, 0.2784, 0.1995, 0.1778, 0.1141, 0.1124, 0.0987,
+                        0.0969, 0.0859, 0.0845, 0.0785, 0.0763, 0.0747, 0.0732, 0.0717, 0.0684,
+                        0.0671, 0.0667, 0.0609, 0.0601, 0.0590, 0.0554, 0.0554, 0.0551, 0.0525,
+                        0.0507], device='cuda:0')
+            bboxes: tensor([[546.5943, 447.4915, 713.3837, 654.3375],
+                        [371.7398, 462.0977, 560.7458, 658.3260],
+                        [379.3674, 276.2399, 551.1941, 484.2762],
+                        [544.4650, 244.4454, 724.3888, 479.0480],
+                        [ 46.6212, 205.4342, 609.5701, 673.1629],
+                        [662.2711, 453.6012, 727.2725, 634.9736],
+                        [120.4904, 404.4946, 642.6574, 661.0764],
+                        [556.4944, 148.4503, 726.1290, 632.6339],
+                        [347.8582, 437.8792, 665.7798, 684.4771],
+                        [340.7534, 567.9493, 400.0796, 642.5756],
+                        [372.5865, 536.8323, 510.0519, 663.8131],
+                        [274.1423, 565.8668, 355.8571, 655.5518],
+                        [371.1986, 578.9404, 435.4725, 655.2958],
+                        [204.6922,  95.5476, 671.7856, 479.5868],
+                        [219.6979, 286.8763, 638.1251, 612.0243],
+                        [565.3989, 464.6924, 660.6031, 611.7059],
+                        [353.4677, 551.3620, 414.0734, 633.8909],
+                        [370.4662, 114.7499, 558.3582, 299.8286],
+                        [351.9470, 554.9655, 452.9542, 656.8944],
+                        [679.3967, 443.5840, 732.0000, 587.3964],
+                        [330.1043, 237.1691, 416.5683, 317.9762],
+                        [695.3318, 461.6513, 732.0000, 642.0739],
+                        [304.5321, 576.8348, 366.6144, 654.2540],
+                        [344.1513,  44.8366, 709.1578, 606.1331],
+                        [575.7275, 469.6450, 685.7815, 563.0044],
+                        [648.7828, 196.6834, 732.0000, 533.2676],
+                        [275.2457, 372.7130, 392.5819, 470.6779],
+                        [336.1676, 489.7967, 485.4782, 672.3531]], device='cuda:0')
+        ) at 0x7f62089a8940>
+    ignored_instances: <InstanceData(
+        
+            META INFORMATION
+        
+            DATA FIELDS
+            labels: tensor([], device='cuda:0', dtype=torch.int64)
+            bboxes: tensor([], device='cuda:0', size=(0, 4))
+        ) at 0x7f62089a8dc0>
+) at 0x7f62089a8e20>
+  0%|          | 0/28 [00:00<?, ?it/s]100%|██████████| 28/28 [00:00<00:00, 1948.54it/s]tooth: 0.8583571910858154, cavity: 0.14164282381534576
+tooth: 0.9635036587715149, cavity: 0.036496296525001526
+response:
+[{'cls': '0', 'prob': 0.14164282381534576, 'bbox': [[546.0, 447.0], [713.0, 654.0]]}, {'cls': '0', 'prob': 0.036496296525001526, 'bbox': [[371.0, 462.0], [560.0, 658.0]]}]
+INFO:     127.0.0.1:42176 - "POST /predict HTTP/1.1" 200 OK
+WARNING:  WatchFiles detected changes in 'predict.py'. Reloading...
+
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [63436]
+INFO:     Started server process [63716]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+/home/dmsai2/.conda/envs/openmmlab/lib/python3.8/multiprocessing/resource_tracker.py:216: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '
+INFO:     Will watch for changes in these directories: ['/home/dmsai2/mmdetection/image-classification-fastapi']
+ERROR:    [Errno 98] Address already in use
