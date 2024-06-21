@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C1B14B42BFC1F3D008E117C /* dental_cavity_detectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14B32BFC1F3D008E117C /* dental_cavity_detectorApp.swift */; };
+		0C1B14B82BFC1F3E008E117C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B14B72BFC1F3E008E117C /* Assets.xcassets */; };
+		0C1B14BC2BFC1F3E008E117C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C1B14BB2BFC1F3E008E117C /* Preview Assets.xcassets */; };
+		0C1B14C62BFC23B8008E117C /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14C52BFC23B8008E117C /* RootView.swift */; };
+		0C1B14C82BFC23D2008E117C /* RootViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14C72BFC23D2008E117C /* RootViewModel.swift */; };
+		0C1B14CA2BFC24CA008E117C /* ProgressWaitingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14C92BFC24CA008E117C /* ProgressWaitingView.swift */; };
+		0C1B14CC2BFC24E4008E117C /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14CB2BFC24E4008E117C /* ResultView.swift */; };
+		0C1B14CE2BFC2B9E008E117C /* ResultDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C1B14CD2BFC2B9E008E117C /* ResultDetailView.swift */; };
+		0C2B62972C23544C001A4AF7 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C2B62962C23544C001A4AF7 /* TestView.swift */; };
+		0C813A5E2C188E6D007FE8A7 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C813A5D2C188E6D007FE8A7 /* LoadingView.swift */; };
+		0C813A622C1890F9007FE8A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C813A612C1890F9007FE8A7 /* ContentView.swift */; };
+		0C813A642C189204007FE8A7 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C813A632C189204007FE8A7 /* DataManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C1B14B02BFC1F3D008E117C /* dental-cavity-detector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dental-cavity-detector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C1B14B32BFC1F3D008E117C /* dental_cavity_detectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dental_cavity_detectorApp.swift; sourceTree = "<group>"; };
+		0C1B14B72BFC1F3E008E117C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0C1B14B92BFC1F3E008E117C /* dental_cavity_detector.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = dental_cavity_detector.entitlements; sourceTree = "<group>"; };
+		0C1B14BB2BFC1F3E008E117C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0C1B14C52BFC23B8008E117C /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		0C1B14C72BFC23D2008E117C /* RootViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewModel.swift; sourceTree = "<group>"; };
+		0C1B14C92BFC24CA008E117C /* ProgressWaitingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressWaitingView.swift; sourceTree = "<group>"; };
+		0C1B14CB2BFC24E4008E117C /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		0C1B14CD2BFC2B9E008E117C /* ResultDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultDetailView.swift; sourceTree = "<group>"; };
+		0C2B62962C23544C001A4AF7 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		0C813A5C2C1889BA007FE8A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0C813A5D2C188E6D007FE8A7 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		0C813A612C1890F9007FE8A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0C813A632C189204007FE8A7 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C1B14AD2BFC1F3D008E117C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C1B14A72BFC1F3D008E117C = {
+			isa = PBXGroup;
+			children = (
+				0C1B14B22BFC1F3D008E117C /* dental-cavity-detector */,
+				0C1B14B12BFC1F3D008E117C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C1B14B12BFC1F3D008E117C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B14B02BFC1F3D008E117C /* dental-cavity-detector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C1B14B22BFC1F3D008E117C /* dental-cavity-detector */ = {
+			isa = PBXGroup;
+			children = (
+				0C9EEBDD2C2204CF00B4BBE5 /* Data */,
+				0C813A5C2C1889BA007FE8A7 /* Info.plist */,
+				0C1B14C42BFC2396008E117C /* Managers */,
+				0C1B14C32BFC238D008E117C /* ViewModels */,
+				0C1B14C22BFC2383008E117C /* Views */,
+				0C1B14B32BFC1F3D008E117C /* dental_cavity_detectorApp.swift */,
+				0C1B14B72BFC1F3E008E117C /* Assets.xcassets */,
+				0C1B14B92BFC1F3E008E117C /* dental_cavity_detector.entitlements */,
+				0C1B14BA2BFC1F3E008E117C /* Preview Content */,
+			);
+			path = "dental-cavity-detector";
+			sourceTree = "<group>";
+		};
+		0C1B14BA2BFC1F3E008E117C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B14BB2BFC1F3E008E117C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0C1B14C22BFC2383008E117C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B14C52BFC23B8008E117C /* RootView.swift */,
+				0C1B14C92BFC24CA008E117C /* ProgressWaitingView.swift */,
+				0C1B14CB2BFC24E4008E117C /* ResultView.swift */,
+				0C1B14CD2BFC2B9E008E117C /* ResultDetailView.swift */,
+				0C813A5D2C188E6D007FE8A7 /* LoadingView.swift */,
+				0C813A612C1890F9007FE8A7 /* ContentView.swift */,
+				0C2B62962C23544C001A4AF7 /* TestView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0C1B14C32BFC238D008E117C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0C1B14C72BFC23D2008E117C /* RootViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0C1B14C42BFC2396008E117C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				0C813A632C189204007FE8A7 /* DataManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		0C9EEBDD2C2204CF00B4BBE5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0C1B14AF2BFC1F3D008E117C /* dental-cavity-detector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C1B14BF2BFC1F3E008E117C /* Build configuration list for PBXNativeTarget "dental-cavity-detector" */;
+			buildPhases = (
+				0C1B14AC2BFC1F3D008E117C /* Sources */,
+				0C1B14AD2BFC1F3D008E117C /* Frameworks */,
+				0C1B14AE2BFC1F3D008E117C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dental-cavity-detector";
+			productName = "dental-cavity-detector";
+			productReference = 0C1B14B02BFC1F3D008E117C /* dental-cavity-detector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C1B14A82BFC1F3D008E117C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					0C1B14AF2BFC1F3D008E117C = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 0C1B14AB2BFC1F3D008E117C /* Build configuration list for PBXProject "dental-cavity-detector" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C1B14A72BFC1F3D008E117C;
+			productRefGroup = 0C1B14B12BFC1F3D008E117C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C1B14AF2BFC1F3D008E117C /* dental-cavity-detector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C1B14AE2BFC1F3D008E117C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B14BC2BFC1F3E008E117C /* Preview Assets.xcassets in Resources */,
+				0C1B14B82BFC1F3E008E117C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C1B14AC2BFC1F3D008E117C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C1B14B42BFC1F3D008E117C /* dental_cavity_detectorApp.swift in Sources */,
+				0C1B14CA2BFC24CA008E117C /* ProgressWaitingView.swift in Sources */,
+				0C813A622C1890F9007FE8A7 /* ContentView.swift in Sources */,
+				0C1B14CE2BFC2B9E008E117C /* ResultDetailView.swift in Sources */,
+				0C1B14C82BFC23D2008E117C /* RootViewModel.swift in Sources */,
+				0C813A5E2C188E6D007FE8A7 /* LoadingView.swift in Sources */,
+				0C2B62972C23544C001A4AF7 /* TestView.swift in Sources */,
+				0C1B14C62BFC23B8008E117C /* RootView.swift in Sources */,
+				0C813A642C189204007FE8A7 /* DataManager.swift in Sources */,
+				0C1B14CC2BFC24E4008E117C /* ResultView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0C1B14BD2BFC1F3E008E117C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0C1B14BE2BFC1F3E008E117C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		0C1B14C02BFC1F3E008E117C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dental-cavity-detector/dental_cavity_detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dental-cavity-detector/Preview Content\"";
+				DEVELOPMENT_TEAM = NCLJJYF4QS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dental-cavity-detector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "충치판별";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoeunlee228.dental-cavity-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C1B14C12BFC1F3E008E117C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "dental-cavity-detector/dental_cavity_detector.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dental-cavity-detector/Preview Content\"";
+				DEVELOPMENT_TEAM = NCLJJYF4QS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dental-cavity-detector/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "충치판별";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoeunlee228.dental-cavity-detector";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C1B14AB2BFC1F3D008E117C /* Build configuration list for PBXProject "dental-cavity-detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B14BD2BFC1F3E008E117C /* Debug */,
+				0C1B14BE2BFC1F3E008E117C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C1B14BF2BFC1F3E008E117C /* Build configuration list for PBXNativeTarget "dental-cavity-detector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C1B14C02BFC1F3E008E117C /* Debug */,
+				0C1B14C12BFC1F3E008E117C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C1B14A82BFC1F3D008E117C /* Project object */;
+}
