@@ -5,33 +5,46 @@
 ```bash
 git clone https://github.com/leehe228/OSSP1.git
 ```
+<br>
 
 ### Model Server
 **환경 설치**
+
+Step 1. Create a conda environment and activate it.
 ```bash
 conda create --name openmmlab python=3.8 -y
 conda activate openmmlab
 ```
+<br>
 
+Step 2. Install PyTorch following [official instructions](https://pytorch.org), e.g.
 ```bash
 conda install pytorch torchvision -c pytorch
 ```
+<br>
 
+Step 3. Install MMEngine and MMCV using MIM.
 ```bash
 pip install -U openmim
 mim install mmengine
 mim install "mmcv>=2.1.0"
 ```
+<br>
 
+Step 4. Install MMDetection.
 ```bash
 cd ./OSSP1/mmdetection
 pip install -v -e .
 ```
+<br>
 
+Step 5. Install FastAPI Server Requirements
 ```bash
 cd image-classification-fastapi
 pip install -r requirements.txt
 ```
+<br>
+
 **서버 실행**
 ```bash
 PATH_TO_CONDA_PYTHON -m uvicorn main:app --reload
@@ -48,7 +61,7 @@ Github Repository의 dental-cavity-detector 폴더를 Xcode (최소 버전 17.0)
 1. 앱을 실행할 Target (애뮬레이터 혹은 디바이스)을 선택합니다.
 2. Play 버튼을 눌러 Build and Run 합니다.
 
-
+## Presentation
 ![5조_최종발표_page-0001](https://github.com/leehe228/OSSP1/assets/37548919/f7f9d9ab-d8ac-4e84-b77d-b65b2900337c)
 ![5조_최종발표_page-0002](https://github.com/leehe228/OSSP1/assets/37548919/245dec88-f0db-4abe-aae0-b3bf2fedbf45)
 ![5조_최종발표_page-0003](https://github.com/leehe228/OSSP1/assets/37548919/5407badd-1c7d-4cc5-8841-b32c4915ebe7)
