@@ -1,6 +1,54 @@
 # OSSP1
 건국대학교 컴퓨터공학부 오픈소스SW프로젝트1 텀프로젝트 레포지토리입니다
 
+## How to run
+```bash
+git clone https://github.com/leehe228/OSSP1.git
+```
+
+### Model Server
+**환경 설치**
+```bash
+conda create --name openmmlab python=3.8 -y
+conda activate openmmlab
+```
+
+```bash
+conda install pytorch torchvision -c pytorch
+```
+
+```bash
+pip install -U openmim
+mim install mmengine
+mim install "mmcv>=2.1.0"
+```
+
+```bash
+cd ./OSSP1/mmdetection
+pip install -v -e .
+```
+
+```bash
+cd image-classification-fastapi
+pip install -r requirements.txt
+```
+**서버 실행**
+```bash
+PATH_TO_CONDA_PYTHON -m uvicorn main:app --reload
+```
+ex) `~/.conda/envs/mmdetection/bin/python -m uvicorn main:app --reload`
+
+<br>
+
+### iOS App
+Github Repository의 dental-cavity-detector 폴더를 Xcode (최소 버전 17.0)로 엽니다.
+
+<img width="1200px" alt="" src="https://github.com/leehe228/OSSP1/assets/37548919/3665aaf5-23d5-4b9d-9642-659c25ab8edd">
+
+1. 앱을 실행할 Target (애뮬레이터 혹은 디바이스)을 선택합니다.
+2. Play 버튼을 눌러 Build and Run 합니다.
+
+
 ![5조_최종발표_page-0001](https://github.com/leehe228/OSSP1/assets/37548919/f7f9d9ab-d8ac-4e84-b77d-b65b2900337c)
 ![5조_최종발표_page-0002](https://github.com/leehe228/OSSP1/assets/37548919/245dec88-f0db-4abe-aae0-b3bf2fedbf45)
 ![5조_최종발표_page-0003](https://github.com/leehe228/OSSP1/assets/37548919/5407badd-1c7d-4cc5-8841-b32c4915ebe7)
